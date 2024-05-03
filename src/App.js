@@ -96,7 +96,7 @@ function App() {
         document.getElementById('tweet-quote').className='color10'
     }
     dispatch(changeVersiculo(versiculos.find(versiculo => versiculo.id === num)))
-  },[])
+  },[dispatch])
 
   return (
     <div className='App d-flex ' id='App'>
