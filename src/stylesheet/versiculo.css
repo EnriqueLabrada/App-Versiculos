@@ -1,0 +1,249 @@
+.card{
+    width: 700px;
+    height: 300px;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    background-color:  white;
+    font-family: 'Roboto Condensed', sans-serif ;
+}
+
+
+
+.card-header{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:  white;
+    border: none;
+    font-family: 'Roboto Condensed', sans-serif ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.card-body{
+    background-color:  white;
+    border-radius: 10px;
+}
+
+.versiculo {
+    padding-top: 20px;
+    font-size: 30px;
+    background-color:  white;
+}
+
+#copiar{
+    border-bottom: solid 2px;
+    border-radius: 0;
+    font-size: 25px;
+    margin-top: -20px;
+    padding: 1px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.cambiar {
+    margin-top: 70px;
+    font-size: 30px;
+    border: 3px solid ;
+}
+
+#new-quote:hover{
+    border:solid 3px;
+}
+
+.botones{
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#tweet-quote{
+    margin-bottom: -70px;
+    font-size: 30px;
+    margin-right: 50px;
+}
+
+
+.color1{
+    color: rgb(58, 163, 233);
+    animation-name: cambiarColor1;
+    animation-duration: 2s;
+}
+.bgColor1{
+    background-color:rgb(58, 163, 233) ;
+}
+
+@keyframes cambiarColor1{
+    0%{
+        color: transparent;
+    }
+    100%{
+        color: rgb(58, 163, 233);
+    }
+}
+
+.color2{
+    color: rgb(235, 200, 27);
+    animation-name: cambiarColor2;
+    animation-duration: 2s;
+}
+.bgColor2{
+    background-color: rgb(235, 200, 27) ;
+}
+
+@keyframes cambiarColor2{
+    0%{
+        color: transparent;
+    }
+    100%{
+        color: rgb(235, 200, 27);
+    }
+}
+
+.color3{
+    color: rgb(176, 37, 22);
+    animation-name: cambiarColor2;
+    animation-duration: 2s;
+}
+.bgColor3{
+    background-color: rgb(176, 37, 22) ;
+}
+@keyframes cambiarColor3{
+    0%{
+        color: transparent;
+    }
+    100%{
+        color: rgb(176, 37, 22);
+    }
+}
+
+
+.color4{
+    color: rgb(22, 176, 127);
+    animation-name: cambiarColor4;
+    animation-duration: 2s;
+}
+.bgColor4{
+    background-color: rgb(22, 176, 127) ;
+}
+
+@keyframes cambiarColor4{
+    0%{
+        color: transparent;
+    }
+    100%{
+        color: rgb(22, 176, 127) ;
+    }
+}
+
+.color5{
+    color: rgb(68, 22, 176);
+    animation-name: cambiarColor5;
+    animation-duration: 2s;
+}
+.bgColor5{
+    background-color: rgb(68, 22, 176) ;
+}
+@keyframes cambiarColor5{
+    0%{
+        color: transparent;
+    }
+    100%{
+        color: rgb(68, 22, 176) ;
+    }
+}
+
+.color6{
+    color: rgb(37, 176, 22);
+    animation-name: cambiarColor6;
+    animation-duration: 2s;
+}
+.bgColor6{
+    background-color: rgb(37, 176, 22) ;
+}
+
+@keyframes cambiarColor6{
+    0%{
+        color: transparent;
+    }
+    100%{
+        color: rgb(37, 176, 22) ;
+    }
+}
+
+.color7{
+    color: rgb(30, 194, 219);
+    animation-name: cambiarColor7;
+    animation-duration: 2s;
+}
+.bgColor7{
+    background-color: rgb(30, 194, 219) ;
+}
+
+@keyframes cambiarColor7{
+    0%{
+        color: transparent;
+    }
+    100%{
+        color: rgb(30, 194, 219) ;
+    }
+}
+
+
+.color8{
+    color: rgb(199, 27, 214);
+    animation-name: cambiarColor8;
+    animation-duration: 2s;
+}
+.bgColor8{
+    background-color: rgb(199, 27, 214) ;
+}
+
+@keyframes cambiarColor8{
+    0%{
+        color: transparent;
+    }
+    100%{
+        color: rgb(199, 27, 214) ;
+    }
+}
+
+.color9{
+    color: rgb(95, 119, 215);
+    animation-name: cambiarColor9;
+    animation-duration: 2s;
+}
+.bgColor9{
+    background-color: rgb(95, 119, 215) ;
+}
+
+@keyframes cambiarColor9{
+    0%{
+        color: transparent;
+    }
+    100%{
+        color: rgb(95, 119, 215) ;
+    }
+}
+
+.color10{
+    color: rgb(230, 131, 89);
+    animation-name: cambiarColor10;
+    animation-duration: 2s;
+}
+.bgColor10{
+    background-color: rgb(230, 131, 89) ;
+}
+@keyframes cambiarColor10{
+    0%{
+        color: transparent;
+    }
+    100%{
+        color: rgb(230, 131, 89) ;
+    }
+}
