@@ -121,7 +121,7 @@ function Versiculo () {
                 <p id='text' className='versiculo'>{versiculo.texto}</p>
                 </blockquote>
                 <div className='botones container d-flex'>
-                    <a className='tweet' id='tweet-quote' target='_blank' href='twitter.com/intent/tweet'><i class='bi bi-twitter-x'></i></a>
+                    <a className='tweet' rel='noreferrer' id='tweet-quote' target='_blank' href='https://twitter.com/intent/tweet'><i class='bi bi-twitter-x'></i></a>
                     <button className='btn cambiar' id='new-quote' onClick={cambiarVS}>Cambiar</button>
                 </div>
             </div>
