@@ -9,3 +9,24 @@
 }
 
 
+footer{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .enlaces {
+    font-size: 30px;
+  }
+  
+  .enlaces a i {
+    padding: 10px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .enlaces a i:hover{
+    transition: all ease 0.3s;
+    font-size: 35px;
+  }

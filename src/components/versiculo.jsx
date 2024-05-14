@@ -111,6 +111,7 @@ function Versiculo () {
     }
 
     return (
+        <div className='d-flex contenedor'>
         <div className='card' id="quote-box">
             <div className='card-header'>
                 <p id='author'>{versiculo.cita}</p>
@@ -125,6 +126,15 @@ function Versiculo () {
                     <button className='btn cambiar' id='new-quote' onClick={cambiarVS}>Cambiar</button>
                 </div>
             </div>
+        </div>
+        <footer>
+      <p> Created by EnriqueLabrada </p>
+        <div className='enlaces d-flex'>
+          <a href='https://github.com/EnriqueLabrada' rel='noreferrer' target='_blank'><i className='bi bi-github'></i></a>
+          <a href='https://www.linkedin.com/in/enrique-labrada-rivero-814b4927a/' rel='noreferrer' target='_blank'><i className='bi bi-linkedin'></i></a>
+          <a href='https://www.instagram.com/enri_labrada?igsh=MWdnMHZobXNmZGVjbQ==' rel='noreferrer' target='_blank'><i class="bi bi-instagram"></i></a>
+        </div>
+      </footer>
         </div>
     )
 }

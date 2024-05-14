@@ -247,3 +247,50 @@
         color: rgb(230, 131, 89) ;
     }
 }
+
+
+
+footer{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-weight: bold;
+    padding-top: 25%;
+  }
+  
+  .enlaces {
+    font-size: 30px;
+  }
+  
+  .enlaces a i {
+    padding: 10px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .enlaces a i:hover{
+    transition: all ease 0.3s;
+    font-size: 35px;
+  }
+
+  .contenedor{
+    flex-direction: column;
+  }
+
+  @media (max-width:950px) {
+    .versiculo {
+        padding-top: 20px;
+        font-size: 20px;
+        background-color:  white;
+        width: 320px;
+        text-align: center;
+    }
+
+    blockquote{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  }
